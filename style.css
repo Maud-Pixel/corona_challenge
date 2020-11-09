@@ -5,4 +5,18 @@
 .col-6, .col-4, .col-3 {
   border: solid 1px green;
 }
+
+.navbar {
+  background-color: blue;
+}
+.navbar .custom-toggler.navbar-toggler {
+  border-color: #ff66cb;
+}
+.navbar ul, .navbar li {
+  list-style: none;
+}
+
+.xx {
+  background-color: green;
+}
 /*# sourceMappingURL=style.css.map */
