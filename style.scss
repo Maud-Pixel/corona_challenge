@@ -1,4 +1,11 @@
-p
+
+
+.row
 {
-    color: red;
+    border: solid 1px black; 
+}
+
+.col-6, .col-4, .col-3
+{
+    border: solid 1px green ; 
 }
