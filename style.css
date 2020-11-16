@@ -27,6 +27,18 @@ body button {
   font-weight: lighter;
   font-size: 14px;
 }
+body img {
+  overflow: auto;
+}
+
+.navbar .custom-toggler.navbar-toggler {
+  border-color: #f70757;
+}
+.navbar .navbarContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 
 .container-1 {
   background-image: url("/images/header-banner.jpg");
@@ -38,13 +50,9 @@ body button {
   font-size: 20px;
 }
 
-.navbar .custom-toggler.navbar-toggler {
-  border-color: #f70757;
-}
-.navbar .navbarContent {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.container-2 {
+  background-image: url("/images/statistics-bg.png");
+  height: 20vh;
 }
 
 ul, li a {

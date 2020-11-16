@@ -34,23 +34,14 @@ body{
         font-weight: lighter;
         font-size: 14px;
     }
+    img
+        {
+           overflow: auto;
+        }
     color: white;
     
 }
 
-.container-1
-{
-    background-image: url("/images/header-banner.jpg");
-    .content1
-    {
-        padding-left: 5vw;  
-    }
-    p
-    {
-        font-size: 20px;
-    }
-    
-}
 .navbar
 {
    .custom-toggler.navbar-toggler 
@@ -63,6 +54,27 @@ body{
    } 
 }
 
+.container-1
+{
+    background-image: url("/images/header-banner.jpg");
+    .content1
+    {
+        padding-left: 5vw;  
+        
+    }
+    p
+    {
+        font-size: 20px;
+    }
+    
+}
+
+.container-2
+{
+    background-image: url('/images/statistics-bg.png');
+    height: 20vh;
+
+}
 ul, li a
 {
     list-style: none;
