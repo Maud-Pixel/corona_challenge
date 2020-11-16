@@ -54,6 +54,32 @@ body img {
   background-image: url("/images/statistics-bg.png");
   height: 20vh;
 }
+.container-2 .col {
+  text-align: center;
+  color: black;
+  margin-top: 2vh;
+}
+.container-2 .col .title, .container-2 .col .chiffer {
+  font-weight: bold;
+}
+.container-2 .col .title__red, .container-2 .col .chiffer__red {
+  color: #b30000;
+}
+.container-2 .col .title__pink, .container-2 .col .chiffer__pink {
+  color: #f70757;
+}
+.container-2 .col .title__orange, .container-2 .col .chiffer__orange {
+  color: #e65c00;
+}
+.container-2 .col .title__violet, .container-2 .col .chiffer__violet {
+  color: #5900b3;
+}
+.container-2 .col .title {
+  font-size: 20px;
+}
+.container-2 .col .chiffer {
+  font-size: 30px;
+}
 
 ul, li a {
   list-style: none;

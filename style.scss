@@ -73,6 +73,41 @@ body{
 {
     background-image: url('/images/statistics-bg.png');
     height: 20vh;
+    .col
+    {
+        text-align: center;
+        color: black;
+        margin-top: 2vh;
+        .title, .chiffer
+        {
+            font-weight: bold;
+            &__red
+            {
+                color:#b30000;
+            }
+            &__pink
+            {
+                color: $pink;
+            }
+            &__orange
+            {
+                color:#e65c00;
+            }
+            &__violet
+            {
+                color:#5900b3;
+            }
+        }
+        .title
+        {
+            font-size: 20px;
+        }
+        .chiffer
+        {
+            font-size: 30px;
+        }
+    }
+
 
 }
 ul, li a
