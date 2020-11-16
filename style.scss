@@ -1,28 +1,77 @@
 
 
+$pink: #f70757;
 .row
 {
     border: solid 1px black; 
 }
 
-.col-6, .col-4, .col-3
-{
-    border: solid 1px green ; 
+body{
+
+    a {
+        text-decoration : none;
+    }
+    h1, h2
+    {
+        font-size: 60px;
+        font-weight: bold;
+    }
+    h3
+    {
+        font-size: 25px;
+    }
+    .col-6, .col-4, .col-3
+    {
+        border: solid 1px green ; 
+    }
+    button
+    {
+        background-color: $pink;
+        border: $pink;
+        border-radius : 25px;
+        color: white;
+        padding : 10px 15px 10px 15px;
+        font-weight: lighter;
+        font-size: 14px;
+    }
+    color: white;
+    
 }
 
+.container-1
+{
+    background-image: url("/images/header-banner.jpg");
+    .content1
+    {
+        padding-left: 5vw;  
+    }
+    p
+    {
+        font-size: 20px;
+    }
+    
+}
 .navbar
 {
-    background-color: blue;
-    .custom-toggler.navbar-toggler {
-        border-color: rgb(255,102,203);
-      } 
-    ul, li
- {
-    list-style: none;
-    
- }
+   .custom-toggler.navbar-toggler 
+    {
+        border-color: $pink;
+    } 
+   .navbarContent
+   {
+       display: flex;
+   } 
 }
-.xx
+
+ul, li a
 {
-    background-color: green;
+    list-style: none;
+    color: white;   
 }
+
+li a:hover
+{
+    color:  $pink;
+}
+      
+       
